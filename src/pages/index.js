@@ -1,13 +1,12 @@
 /** @jsx jsx */
-import React from "react"
-import {jsx, Text, Button} from "theme-ui"
-import styled from "@emotion/styled"
-import Layout from "@site/src/components/Layout"
 import Link from "@docusaurus/Link"
 import useBaseUrl from "@docusaurus/useBaseUrl"
-import VideoPlayer from "../components/VideoPlayer"
+import styled from "@emotion/styled"
+import Layout from "@site/src/components/Layout"
+import {Button, jsx, Text} from "theme-ui"
 import NewsletterForm from "../components/NewsletterForm"
 import Spaced from "../components/Spaced"
+import VideoPlayer from "../components/VideoPlayer"
 
 const Grid = styled.div`
   display: grid;
@@ -306,7 +305,7 @@ function Home() {
         <Feature title="Code Installer Recipes">
           <Text>
             One command to install code and/or packages into your blitz app. Examples: `blitz
-            install tailwind` or `blitz install chakra`. Multiple offical recipes, but anyone can
+            install tailwind` or `blitz install chakra-ui`. Multiple offical recipes, but anyone can
             create an publish their own.
           </Text>
         </Feature>
